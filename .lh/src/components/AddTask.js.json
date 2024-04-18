@@ -1,0 +1,50 @@
+{
+    "sourceFile": "src/components/AddTask.js",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 8,
+            "patches": [
+                {
+                    "date": 1713421923585,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1713421930704,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,5 @@\n-export const a\n\\ No newline at end of file\n+export const AddTask = () => {\n+  return (\n+    \n+  )\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1713421939350,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n export const AddTask = () => {\n   return (\n-    \n+    input\n   )\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1713421945435,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,5 @@\n+export const AddTask = () => {\n+  return (\n+    <\n+  )\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1713421963693,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,5 @@\n+export const AddTask = () => {\n+  return (\n+    <input type=\"text\" />\n+  )\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1713421998647,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,6 @@\n+export const AddTask = () => {\n+  return (\n+    <input type=\"text\" />\n+    button\n+  )\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1713422005777,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,21 +1,7 @@\n export const AddTask = () => {\n   return (\n+    <></>\n     <input type=\"text\" />\n-    button\n+    <button>Add task!</button>\n   )\n-}\n-export const AddTask = () => {\n-  return (\n-    <input type=\"text\" />\n-  )\n-}\n-export const AddTask = () => {\n-  return (\n-    <\n-  )\n-}\n-export const AddTask = () => {\n-  return (\n-    input\n-  )\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1713422011951,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,8 @@\n export const AddTask = () => {\n   return (\n-    <></>\n+    <>\n     <input type=\"text\" />\n-    <button>Add task!</button>\n+      <button>Add task!</button>\n+      </>\n   )\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1713422025067,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,6 +3,6 @@\n     <>\n       <input type=\"text\" />\n       <button>Add task!</button>\n     </>\n-  )\n-}\n\\ No newline at end of file\n+  );\n+};\n\\ No newline at end of file\n"
+                }
+            ],
+            "date": 1713421923585,
+            "name": "Commit-0",
+            "content": "export const a"
+        }
+    ]
+}

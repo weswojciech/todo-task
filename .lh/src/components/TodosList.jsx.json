@@ -1,0 +1,42 @@
+{
+    "sourceFile": "src/components/TodosList.jsx",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 6,
+            "patches": [
+                {
+                    "date": 1713428094047,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1713428100472,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,5 @@\n-export const \n\\ No newline at end of file\n+export const TodosList = () => {\n+  return {\n+    \n+  }\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1713428108893,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,5 @@\n+export const TodosList = ({ todos }) => {\n+  return {\n+    \n+  }\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1713428114071,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,10 +1,5 @@\n export const TodosList = ({ todos }) => {\n   return {\n-    \n+    ul\n   }\n-}\n-export const TodosList = () => {\n-  return {\n-    \n-  }\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1713428128973,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n export const TodosList = ({ todos }) => {\n   return {\n-    ul\n+    \n   }\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1713428136467,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n export const TodosList = ({ todos }) => {\n   return {\n-    <ul>\n+    <>\n   }\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1713428143987,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,7 @@\n+export const TodosList = ({ todos }) => {\n+  return {\n+    <>\n+    \n+    </>\n+  }\n+}\n\\ No newline at end of file\n"
+                }
+            ],
+            "date": 1713428094047,
+            "name": "Commit-0",
+            "content": "export const "
+        }
+    ]
+}

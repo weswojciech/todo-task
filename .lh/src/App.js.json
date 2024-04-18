@@ -1,0 +1,38 @@
+{
+    "sourceFile": "src/App.js",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 5,
+            "patches": [
+                {
+                    "date": 1713421060229,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1713421813895,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,4 @@\n-import logo from './logo.svg';\n import './App.css';\n \n function App() {\n   return (\n"
+                },
+                {
+                    "date": 1713421819380,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,22 +2,9 @@\n \n function App() {\n   return (\n     <div className=\"App\">\n-      <header className=\"App-header\">\n-        <img src={logo} className=\"App-logo\" alt=\"logo\" />\n-        <p>\n-          Edit <code>src/App.js</code> and save to reload.\n-        </p>\n-        <a\n-          className=\"App-link\"\n-          href=\"https://reactjs.org\"\n-          target=\"_blank\"\n-          rel=\"noopener noreferrer\"\n-        >\n-          Learn Reactsss\n-        </a>\n-      </header>\n+      \n     </div>\n   );\n }\n \n"
+                },
+                {
+                    "date": 1713421828835,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,8 @@\n import './App.css';\n \n function App() {\n+  const [todos, setTodos]\n   return (\n     <div className=\"App\">\n       \n     </div>\n"
+                },
+                {
+                    "date": 1713421834993,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,9 @@\n+import { useState } from 'react';\n import './App.css';\n \n function App() {\n-  const [todos, setTodos] \n+  const [todos, setTodos] = useState\n   return (\n     <div className=\"App\">\n       \n     </div>\n"
+                },
+                {
+                    "date": 1713421840853,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,8 +2,9 @@\n import './App.css';\n \n function App() {\n   const [todos, setTodos] = useState([]);\n+  \n   return (\n     <div className=\"App\">\n       \n     </div>\n"
+                }
+            ],
+            "date": 1713421060229,
+            "name": "Commit-0",
+            "content": "import logo from './logo.svg';\nimport './App.css';\n\nfunction App() {\n  return (\n    <div className=\"App\">\n      <header className=\"App-header\">\n        <img src={logo} className=\"App-logo\" alt=\"logo\" />\n        <p>\n          Edit <code>src/App.js</code> and save to reload.\n        </p>\n        <a\n          className=\"App-link\"\n          href=\"https://reactjs.org\"\n          target=\"_blank\"\n          rel=\"noopener noreferrer\"\n        >\n          Learn Reactsss\n        </a>\n      </header>\n    </div>\n  );\n}\n\nexport default App;\n"
+        }
+    ]
+}
