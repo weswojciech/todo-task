@@ -24,7 +24,7 @@ function App() {
     ))
   };
 
-  const handleCompletion = (id) => {
+  const handleCompletion = (id) => () => {
     setTodos(prevTodos => {
       return prevTodos.map(task =>
         task.id === id ? { ...task, completed: true } : task
@@ -32,7 +32,7 @@ function App() {
     });
   }; 
   
-  const handleDelete = (id) => {
+  const handleDelete = (id) => () => {
     setTodos(prevTodos => {
       return prevTodos.filter(task => task.id !== id)
     });
